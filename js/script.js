@@ -1,11 +1,11 @@
-	var countDownDate = new Date("May 18, 2019 16:00:00").getTime();
-	var x = setInterval(function() {
-	  var now = new Date().getTime();
-	  var distance = countDownDate - now;
-	  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-	  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-	  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-	  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+	let countDownDate = new Date("May 18, 2019 16:00:00").getTime();
+	let x = setInterval(function() {
+	  let now = new Date().getTime();
+	  let distance = countDownDate - now;
+	  let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	  let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	  let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	  let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 	  document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
 	  + minutes + "m " + seconds + "s ...but who's counting?";
 	  if (distance < 0) {
