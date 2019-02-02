@@ -80,6 +80,10 @@ header a:hover{
 	font-weight: bold;
 }
 
+header h1{
+	min-height: 130px;
+}
+
 /* Showcase */
 
 #showcase{
