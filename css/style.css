@@ -214,6 +214,10 @@ footer{
 		text-align: center;
 	}
 
+	header h1{
+		min-height: 210px;
+	}
+
 	header{
 		padding-bottom: 20px
 	}
